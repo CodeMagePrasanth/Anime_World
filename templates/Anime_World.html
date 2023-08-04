@@ -1,0 +1,37 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime World</title>
+    <link rel="stylesheet" href="{% static 'css/Anime_World.css' %}">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.20.0/css/mdb.lite.min.css" integrity="sha512-Eu5EEZpsrO6niYlnhT+ITom/YVGoIZGEsbAvZ+gUJsO3Xaq9+hX4vZnbecMn/Cq5KOdmNOdehu/U80111W9xsA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav class="nav">
+        <ul class="nav-list">
+        <div class="logo">
+            <img src="{% static 'images/logo.jpg' %}" alt="">
+        </div>
+        <a href="">Home</a>
+        <a href="">Series</a>
+        <a href="">Anime</a>
+    </ul>
+    </nav>
+    <div class="heading h">
+        <p class="h6 text-success">The Anime World </p><p>This website presents the animation series for free, Enjoy for free.</p>
+    </div>
+    <div class="content1">
+        <img src="{% static 'images/images.jpg' %}" alt="">
+        <h1> <a href="">Nauto</a> </h1>
+        <span>9 seasons</span> <span>70 episodes</span>
+    </div>
+    <div class="content2">
+        <img src="{% static 'images/download.jpg' %}" alt="">
+        <h1><a href="">Shippend</a></h1>
+        <span>21 seasons</span> <span>700 episodes</span>
+    </div>
+</body>
+</html>

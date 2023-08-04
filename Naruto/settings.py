@@ -17,7 +17,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 import os
 
-STATIC_DIR_NARUTO=os.path.join(os.path.join(BASE_DIR,'Naruto'),'static')
+TEMPLATE_DIR = os.path.join(BASE_DIR,'templates') 
+
+STATIC_DIR_NARUTO =os.path.join(os.path.join(BASE_DIR,'Naruto'),'static')
 
 STATIC_DIR_APP=os.path.join(os.path.join(BASE_DIR,'app'),'static')
 
@@ -62,7 +64,7 @@ ROOT_URLCONF = 'Naruto.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [TEMPLATE_DIR,],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
