@@ -1,6 +1,7 @@
+
 body
 {
-    background-image: url("{% static 'images/logo.jpg' %}");
+    background-image: url("{% static 'images/bg_img.jpg' %}");
     margin: 0px;
     padding: 0px;
     background-size: cover;

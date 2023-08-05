@@ -1,0 +1,115 @@
+    body
+        {
+            background-origin: content-box;
+            background-repeat: no-repeat;
+            background-size: 1366px 330px;
+            position: relative;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        h1
+        {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: ghostwhite;
+            font-size: 25pt;
+            font-weight: bolder;    
+        }
+        p
+        {
+            color: ghostwhite;
+            font-size: 15pt;
+            text-align: center;
+        }
+        .below
+        {
+            padding: 20px;
+            margin-left: 100px;
+            margin-top: 80px;
+            border: 2px solid whitesmoke;
+            width: 80%;
+            height: 350px;
+            background-color:rgb(113, 198, 255);
+        }
+        .below1
+        {
+            border: 2px solid none;
+            background-color:rgb(25, 253, 223);
+            color:black;
+            width: fit-content;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 30px;
+            margin: 10px;
+        }
+        .below2
+        {
+            border: 2px solid none;
+            background-color:rgb(25, 253, 223);
+            color:black;
+            width: 330px;
+            height: 100px;
+            justify-content: center;
+            align-items: center;
+            padding: 30px;
+            margin: 10px;
+            text-decoration: none;
+        }
+        form
+        {
+            background-color: ghostwhite;
+            border: 2px solid none;
+            width: 48%;
+            height: 360px;
+            position:absolute;
+            margin-top: 92px;
+            margin-left: 550px;
+        }
+        i
+        {
+            font-size: 60px;
+        }
+        h4{
+            padding:20px;
+            margin-left: 10px;
+        }
+        span
+        {
+            color:black;
+        }
+        button
+        {
+            font-weight: bold;
+            text-decoration: none;
+            color: red;
+            border-radius: 10px;
+            font-size: 12pt;
+            padding: 20px;
+            margin-left: 80px;
+        }
+        a
+        {
+            text-decoration: none;
+            font-size: 18px;
+        }
+        h3
+        {
+            text-align: center;
+        }
+        h6{
+            color: black;
+            text-align: center; 
+            font-size: 10pt;
+        }
+        form
+        {
+            justify-content: center;
+            align-items: center;
+        }
+        table{
+            padding: 10px;
+            margin-left: 60px;
+        }

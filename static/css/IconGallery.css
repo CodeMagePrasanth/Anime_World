@@ -1,0 +1,42 @@
+body{
+    background:black;
+    margin-top: 10px;
+}
+p{
+    color: green;
+    font-size: 30px;
+    text-align: center;
+}
+h1{
+    color:orangered;
+    font-style: oblique;
+    padding: 5px;
+    text-shadow: 0 0 30px ghostwhite;
+}
+a:hover{
+    background:green;
+    color:lightyellow;
+    border: 3px solid gray;
+    border-radius: 30px;
+    padding: 20px;
+    font-size: 30px;
+}
+a{
+    color:ghostwhite;
+    padding: 15px;
+    font-size: 30px;
+    font-style:italic;
+    text-decoration-line: none;
+}
+i:hover{
+    background: ghostwhite;
+    border-radius: 10px;
+    border-style:inset;    
+    border-width: 5px;
+    padding:5px;
+    
+}
+.fa-solid{
+    color:gold;
+    padding: 5px;
+}

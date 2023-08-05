@@ -1,0 +1,48 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Page</title>
+    <link rel="stylesheet" href="{% static 'css/signup_page.css' %}">
+</head>
+<body>
+    <form>
+        <h1>Contact Form</h1>
+        <table>
+            <tr>
+                <td><label for="">Your Name: </label></td>
+                <td><input type="text" placeholder="first name" id="">
+                    <input type="text" placeholder="second name" id=""></td>
+            </tr>
+            <tr>
+                <td><label for="">Your Email:</label></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><label for="ph">Phone:</label></td>
+                <td><input type="text" id="ph">
+                <input type="text" >
+                <input type="text"></td>
+            </tr>
+            <tr>
+                <td><label for="#msg">Message Subject: </label></td>
+                <td><input type="text" id="msg"></td>
+            </tr>
+            <tr>
+                <td><label for="">Message :</label></td>
+                <td><input type="text" placeholder="Other"></td>
+            </tr>
+            <tr>
+                <td><label for="">Verfiction :</label></td>
+                <td><input type="url" name="" id=""></td>
+            </tr>
+        </table>
+        <hr>
+        <button>
+            <a href="">Submit Form</a>
+        </button> 
+    </form>
+</body>
+</html>

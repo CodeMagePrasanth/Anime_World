@@ -1,0 +1,24 @@
+body{
+    background-image: linear-gradient(90deg,green,lightyellow);
+    margin: 180px 0 0 500px; 
+}
+fieldset{
+    width:fit-content;
+    background-color: ghostwhite;
+    border-radius: 10px;
+    font-size: 20px;
+}
+h1{
+    color:darkred;
+}
+input{
+    border-radius: 5px;
+    margin:5px;
+    font-size: 15px;
+}
+#sub{
+    color:blue;
+}
+#r{
+    color:blue;
+}

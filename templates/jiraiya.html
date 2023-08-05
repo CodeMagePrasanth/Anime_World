@@ -1,0 +1,66 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
+    <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"rel="stylesheet"/>
+    <!-- MDB -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.css" rel="stylesheet"/>
+    <title>Master Jiraiya </title>
+    <link rel="stylesheet" href="{% static 'css/jiraiya.css' %}">
+</head>
+<body>
+    <div class="container d-flex">
+        <div class="card m-2">
+            <div class="card-header bg-success text-light">
+                <h1 class="card-title">Season 1</h1>
+            </div>
+            <div class="card-body">
+                <img src="{% static 'images/bg_img.jpg' %}" alt="" class="img-fluid">
+                <h3 class="card-title">Naruto</h3>
+                <p class="card-text">
+                    “HARD WORK IS WORTHLESS FOR THOSE THAT DON’T BELIEVE IN THEMSELVES.” – NARUTO UZUMAKI</p>
+            </div>
+            <div class="card-footer bg-success">
+                <button class="btn btn-ingo"> Read More</button>
+            </div>
+        </div>
+        <div class="card m-2">
+            <div class="card-header bg-success text-light">
+                <h1 class="card-title">Season 2</h1>
+            </div>
+            <div class="card-body">
+                <img src="{% static 'images/download.jpg' %}" alt="" class="img-fluid">
+                <h3 class="card-title">Naruto Summoning Jutsu</h3>
+                <p class="card-text">
+                    “WHEN PEOPLE GET HURT, THEY LEARN TO HATE… WHEN PEOPLE HURT OTHERS, THEY BECOME HATED AND RACKED WITH GUILT. BUT KNOWING THAT PAIN ALLOWS PEOPLE TO BE KIND.
+                     PAIN ALLOWS PEOPLE TO GROW… AND HOW YOU GROW IS UP TO YOU.” – JIRAIYA
+                </p>
+            </div>
+            <div class="card-footer bg-success">
+                <button class="btn btn-ingo"> Read More</button>
+            </div>
+        </div>
+        <div class="card m-2">
+            <div class="card-header bg-success text-light">
+                <h1 class="card-title">Season 3</h1>
+            </div>
+            <div class="card-body">
+                <img src="{% static 'images/images.jpg' %}" alt="" class="img-fluid">
+                <h3 class="card-title">Naruto Final War </h3>
+                <p class="card-text">
+                    “GROWTH OCCURS WHEN ONE GOES BEYOND ONE’S LIMITS. REALIZING THAT IS ALSO PART OF TRAINING.”</p>
+            </div>
+            <div class="card-footer bg-success">
+                <button class="btn btn-ingo"> Read More</button>
+            </div>
+        </div>
+    </div>
+    <script src="../js/mdb.min.js"></script>
+</body>
+</html>

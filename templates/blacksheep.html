@@ -1,0 +1,54 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BackSheep</title>
+    <link rel="stylesheet" href="{% static 'css/blacksheep.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav>
+        <div>
+            <a href=""><i class="fa-solid fa-home"></i></a>
+            <a href="">ABOUT BLACK SHEEP</a>
+            <a href="">NEWS/FEATURES/FACTS</a>
+            <a href="">WEBSITE SERRVICES</a>
+            <a href="">GALLERY/PORTFOLIO</a>
+            <a href="">CONTACT US</a>
+        </div>
+    </nav>
+    <div>
+        <h1>CONTACT US</h1>
+        <p>Email is with any questions or inquiries or call 518-387-9327.We would be <br> happy to answer your questions and set up a meeting with you.Black <br> Sheep Web Design can help set you apart form the flock!</p>
+    </div>
+    <form>
+        <table>
+            <tr>
+                <td><label for="" >NAME :</label></td>
+                <td><input type="text" placeholder="Name"></td>
+            </tr>
+            <tr>
+                <td><label for="" >EMAIL :</label></td>
+                <td><input type="text" placeholder="Email"><br><p class="p1"> please use a REAL email address so that we can get back to you </p></td>
+            </tr>
+            <tr>
+                <td><label for="">SUBJECT:</label></td>
+                <td><input type="text" placeholder="inquiry for Black Sheep Web Design "></td>
+            </tr>
+            <tr>
+                <td><label for="">MESSAGE:</label></td>
+                <td><input type="text" placeholder="Message" id="msg"></td>
+            </tr>
+            <tr>
+                <td><label for="">SEND ME A COPIED EMAIL :</label></td>
+                <td></td>
+            </tr>
+        </table>
+    </form>
+        <button>
+            <a href="" id="send">SEND EMAIL</a>
+        </button>
+</body>
+</html>

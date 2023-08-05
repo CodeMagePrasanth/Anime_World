@@ -1,0 +1,43 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>from_page</title>
+    <link rel="stylesheet" href="{% static 'css/form_page.css' %}">
+</head>
+<body>
+    <form>
+        <fieldset>
+                <h1>HTML Form</h1>
+                <table>
+                    <tr>
+                        <td><label for="#fn">First Name :</label>
+                        <td><input type="text" placeholder="Enter your first name" id="fn"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="#sn">Second Name :</label></td>
+                        <td> <input type="text" placeholder="Enter your second name" id="sn"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="#dob">Date of Birth :</label></td>
+                        <td><input type="date" id="dob"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="#e">Email :</label></td>
+                        <td><input type="email" placeholder="xyz@gmail.com" id="e"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="#mob">Mobile Number :</label></td>
+                        <td><input type="number" id="mob"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" value="Submit" id="sub">
+                        <input type="reset" value="Reset" id="r"></td>
+                    </tr>
+                </table>
+            </fieldset>
+    </form>
+</body>
+</html>

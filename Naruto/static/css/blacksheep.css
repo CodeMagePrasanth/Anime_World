@@ -1,0 +1,62 @@
+body{
+    margin: 0%;
+    padding:0%;
+    background-color: ghostwhite;
+}
+nav{
+    background-color: black;
+    padding: 25px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;            
+}
+a{
+    margin: 10px;
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+    font-size: 15pt;
+}
+a:hover{
+    color: ghostwhite;
+}
+h1{
+    text-align: center;
+    font-size: 35pt;
+}
+p{
+    font-size:18pt;
+    text-align: center;
+}
+table{
+    margin: 10px;
+    padding: 10px;
+}
+label{
+    padding: 8px;
+    margin: 10px;
+    margin-left: 250px;
+    background-color: black;
+    color: ghostwhite; 
+}
+input{
+    margin: 3px;
+    width: 400px;
+    height: 25px;
+}
+#msg{
+    width: 400px;
+    height: 100px;
+}
+button{
+    margin-left: 274px;
+    background-color: red;
+}
+#send{
+    color: whitesmoke;
+}
+.p1{
+    color: rgb(131, 130, 130);
+    font-size: 11pt;
+    margin: 0;
+}

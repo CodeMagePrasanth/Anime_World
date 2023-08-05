@@ -17,13 +17,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 import os
 
-TEMPLATE_DIR = os.path.join(BASE_DIR,'templates') 
+TEMPLATE_DIR = os.path.join(BASE_DIR,'templates')
 
-STATIC_DIR_NARUTO =os.path.join(os.path.join(BASE_DIR,'Naruto'),'static')
+STATIC_DIR_NARUTO = os.path.join(os.path.join(BASE_DIR,'Naruto'),'static')
 
-STATIC_DIR_APP=os.path.join(os.path.join(BASE_DIR,'app'),'static')
+STATIC_DIR_APP= os.path.join(os.path.join(BASE_DIR,'app'),'static')
 
-STATIC_ROOT=os.path.join(BASE_DIR,'static')
+STATIC_ROOT= os.path.join(BASE_DIR,'static')
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
