@@ -9,7 +9,8 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.20.0/css/mdb.lite.min.css" integrity="sha512-Eu5EEZpsrO6niYlnhT+ITom/YVGoIZGEsbAvZ+gUJsO3Xaq9+hX4vZnbecMn/Cq5KOdmNOdehu/U80111W9xsA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body background="{% static 'images/bg2.1.jpg' %}" class="">
+<!-- <body background="{% static 'images/bg2.1.jpg' %}" class=""> -->
+    <body></body>
     <nav class="nav">
         <ul class="nav-list">
         <div class="logo">
@@ -20,8 +21,10 @@
         <a href="">Anime</a>
     </ul>
     </nav>
+    <center>
     <div class="heading h">
-        <p class="h6 text-success">The Anime World </p><p>This website presents the animation series for free, Enjoy for free.</p>
+        <p class="h6 text-success">The Anime World </p>
+        <p>This website presents the animation series for free, Enjoy for free.</p>
     </div>
     <div class="content1">
         <img src="{% static 'images/images.jpg' %}" alt="">
@@ -33,5 +36,10 @@
         <h1><a href="">Shippend</a></h1>
         <span>21 seasons</span> <span>700 episodes</span>
     </div>
+    <div>
+    <a href="{% url 'Anime_World' %}">Previous</a>
+    <a href="{% url 'reg_form' %}">Next</a>
+    </div>
+</center>
 </body>
 </html>

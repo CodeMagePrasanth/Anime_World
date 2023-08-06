@@ -1,7 +1,8 @@
 
 body
 {
-    background-image: url("{% static 'images/bg_img.jpg' %}");
+    /* background-image: url("{% static 'images/bg_img.jpg' %}"); */
+    background-color: rgb(248, 189, 99);
     margin: 0px;
     padding: 0px;
     background-size: cover;
@@ -20,18 +21,21 @@ body
     width: 100px;
     height: 60px;
 }
+
 a{
     color: black;
     padding: 20px;
+    margin-bottom: 20px;
     text-decoration: none;
     font-size: 15pt;
     position: relative;
 
 }
 a:hover{
-    background-color: ghostwhite;
+    background-color: rgb(255, 255, 255);
     border-radius: 50px;
 }
+
 img{
     border-radius: 20px;
     width: 250px;
@@ -44,7 +48,7 @@ img{
     font-style: italic;
     text-align: center;
     padding: 10px;
-    margin: 10px;
+    margin: 30px;
     background-color: ghostwhite;
     
 }
@@ -53,7 +57,7 @@ img{
     border-radius: 20px;
     display: inline-block;
     font-style: italic;
-    margin: 10px;
+    margin: 30px;
     padding: 10px;
     background-color: ghostwhite;
     text-align: center;

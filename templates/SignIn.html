@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="{% static 'css/SignIn.css' %}">
 </head>
 <body>
-    <td class="animate__animated animate__flipInY">
+    <div><td class="animate__animated animate__flipInY">
         <button>
             <a href="" target="_blank">Sign-up</a>
         </button>
@@ -16,5 +16,12 @@
             <a href="./Login .html" target="_blank">log in</a>
         </button>
     </td>
+</div>
+    <center>
+        <div>
+            <a href="{% url 'MDB' %}">Previous</a>
+            <a href="{% url 'Anime_World' %}">Next</a>
+        </div>
+        </center>
 </body>
 </html>

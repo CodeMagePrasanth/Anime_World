@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>GEEK</title>
 	<link rel="stylesheet" href="{% static 'css/geek.css' %}">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.20.0/css/mdb.lite.min.css" integrity="sha512-Eu5EEZpsrO6niYlnhT+ITom/YVGoIZGEsbAvZ+gUJsO3Xaq9+hX4vZnbecMn/Cq5KOdmNOdehu/U80111W9xsA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
 	<nav class="navbar background">
@@ -100,8 +100,12 @@
 		<p class="text-footer">
 			Copyright ©-All rights are reserved
 		</p>
-
-
-	</footer>	
+		<center>
+			<div>
+			<a href="{% url 'blacksheep' %}">Previous</a>
+			<a href="{% url 'webpage3' %}">Next</a>
+			</div>
+		</center>
+	</footer>
 </body>
 </html>
